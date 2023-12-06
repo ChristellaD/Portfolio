@@ -1,0 +1,111 @@
+* {
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightblue;
+
+}
+
+h1 {
+letter-spacing: 3px;
+margin: 2%
+}
+
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    display: inline-block
+}
+
+a:link {
+    color: lightblue
+}
+
+a:visited {
+color: lightblue
+}
+
+section{
+    width: 85%
+}
+
+
+p {
+    text-align: justify;
+    flex-flow: wrap;
+    font-size: x-large;
+    margin: 4%
+}
+
+aside {
+    font-size: 50px;
+    float: left;
+    margin-right: 50px
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin:auto;
+    scroll-behavior: smooth;
+    background-color: azure;
+}
+
+#refactoring {
+    width: 50%;
+    max-width: 50%;
+    height:auto
+}
+
+#prework,
+#placeholder {
+    width: 30%;
+    height: auto
+}
+
+#content{
+    text-align: center;
+    padding: 30px;
+}
+
+
+#pfp {
+    max-width:10%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+#Delva {
+    color:whitesmoke;
+    float:left;
+    letter-spacing: 5px;
+    background-color: midnightblue;
+    float: left;
+    }
+    
+    @media screen and (min-width: 480px) {
+        #refactoring,
+        #prework,
+        #placeholder {
+            width: 50%;
+            max-width: 50%;
+            height:auto;
+        }
+    }
