@@ -107,6 +107,25 @@ nav a:hover {
     background-color: darkgrey;
 }
 
+.app {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.app img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.app .title {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 768px) {
     .flex-container {
         flex-direction: column;
